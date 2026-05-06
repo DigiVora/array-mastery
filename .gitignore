@@ -1,69 +1,19 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# === Dev-C++ Specific ===
+# File objek hasil kompilasi
 *.o
-*.obj
+# File konfigurasi layout editor
+*.layout
+# File proyek Dev-C++ (abaikan jika kamu hanya ingin simpan .cpp)
+*.win
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# === Executables ===
+# File aplikasi jadi (Windows)
 *.exe
-*.out
-*.app
 
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
-*.log
+# === Backup Files ===
+# Dev-C++ terkadang membuat file backup
 *.bak
-*.swp
 
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# === System Files ===
+.DS_Store
+Thumbs.db
