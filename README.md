@@ -1,4 +1,4 @@
-# Array-Mastery V1.0🚀
+## Array-Mastery V1.0🚀
 
 > "Mastering the logic, one element at a time."
 <div align="center">
